@@ -316,5 +316,6 @@ h1 {
 .info-section {
 display: flex;
 flex-direction: column;
+justify-content: center;
 }
 }
