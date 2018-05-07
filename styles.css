@@ -13,7 +13,6 @@ h2 {font-family: 'Roboto', sans-serif;
 font-weight: lighter;
 font-size: 38px;
 color: gray;
-line-height: 5px;
 }
 
 h3 {font-family: 'Roboto', sans-serif;
@@ -166,12 +165,11 @@ background-color: #F1F1F1f1;
 }
 
 .simon-text{
-  min-width: 100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 50px;
+  padding-right: 50px;
 }
 
 .simon-image{display: flex;
@@ -332,5 +330,13 @@ height: auto;
 .info {max-width:100%;
   align-items: center;
   justify-content: center;
+  margin: 5px;
 }
+
+#simon{
+display: flex;
+flex-direction: column;
+margin: 5px;
+padding: 5px;
 }
+.simon-text{padding: 10px;}
