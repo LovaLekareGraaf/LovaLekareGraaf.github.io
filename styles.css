@@ -313,4 +313,8 @@ h1 {
   height: 300px;
 }
 
+.info-section {
+display: flex;
+flex-direction: column;
+}
 }
